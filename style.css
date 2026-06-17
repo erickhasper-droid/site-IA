@@ -1,0 +1,96 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #1e5631, #4c9a2a);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Conteúdo Principal */
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro h2 {
+    color: #1e5631;
+    margin-bottom: 1rem;
+}
+
+/* Cards Interativos */
+.beneficios {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    flex: 1;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-top: 5px solid #4c9a2a;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #1e5631;
+    margin-bottom: 0.5rem;
+}
+
+/* Painel Informativo (JS) */
+#painel-informativo {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: #e8f5e9;
+    border-left: 5px solid #1e5631;
+    border-radius: 4px;
+}
+
+.escondido {
+    display: none;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #222;
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+}

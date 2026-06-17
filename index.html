@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol na Escola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>O Futebol na Escola</h1>
+        <p>Mais que um esporte, uma ferramenta de transformação</p>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Por que o futebol importa?</h2>
+            <p>O futebol nas escolas vai muito além das quatro linhas. Ele atua como um forte aliado na educação física, na saúde e na socialização dos estudantes.</p>
+        </section>
+
+        <section class="beneficios">
+            <div class="card" onclick="mostrarDetalhe('saude')">
+                <h3>Saúde & Corpo</h3>
+                <p>Combate o sedentarismo e melhora a coordenação motora.</p>
+            </div>
+            <div class="card" onclick="mostrarDetalhe('social')">
+                <h3>Trabalho em Equipe</h3>
+                <p>Ensina cooperação, respeito e empatia entre os colegas.</p>
+            </div>
+            <div class="card" onclick="mostrarDetalhe('disciplina')">
+                <h3>Disciplina</h3>
+                <p>Ajuda a lidar com regras, vitórias e frustrações.</p>
+            </div>
+        </section>
+
+        <section id="painel-informativo" class="escondido">
+            <h3 id="titulo-detalhe"></h3>
+            <p id="texto-detalhe"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Criado para a aula de Educação Física e Tecnologia</p>
+    </footer>
+
+    <script src="script.js"></script>
